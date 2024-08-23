@@ -1,0 +1,49 @@
+*{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+    
+}
+/* common color styles which is applicable on various places */
+.text-primary{
+    color: #FD6E0A;
+}
+.btn-primary{
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}
+
+h3{
+    font-size: 45px;
+    margin-right: 50px;
+    
+}
+/* Navigation styles */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+nav ul{
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    color: black;
+    margin-right: 50px;
+    padding: 5px 15px;
+}
+nav a{
+    text-decoration: none;
+}
+nav .right-side-menu{
+    display: flex;
+
+}
